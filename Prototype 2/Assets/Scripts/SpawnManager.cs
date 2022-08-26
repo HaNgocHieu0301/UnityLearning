@@ -16,11 +16,6 @@ public class SpawnManager : MonoBehaviour
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     void SpawnRandomAnimal()
     {
         Vector3 enemyPosition = new Vector3(Random.Range(-positionX, positionX), 0, positionZ);

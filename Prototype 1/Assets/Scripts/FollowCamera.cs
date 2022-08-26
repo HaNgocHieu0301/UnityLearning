@@ -5,7 +5,8 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
     public GameObject player;
-    private Vector3 offset = new Vector3(0, 3.5f, 0.2f);
+    [SerializeField]
+    Vector3 offset = new Vector3(0, 3.5f, 0.2f);
     // Start is called before the first frame update
     void Start()
     {

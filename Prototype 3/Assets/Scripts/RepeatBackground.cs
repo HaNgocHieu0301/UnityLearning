@@ -10,12 +10,13 @@ public class RepeatBackground : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
-        widthRepeat = GetComponent<BoxCollider>().size.x;
+        widthRepeat = GetComponent<BoxCollider>().size.x/2;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(transform.position.x + " - " + (startPos.x - widthRepeat));
         if (transform.position.x < startPos.x - widthRepeat)
         {
             transform.position = startPos;

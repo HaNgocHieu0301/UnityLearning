@@ -4907,11 +4907,11 @@ GameObject:
   - component: {fileID: 5300479612835201021}
   - component: {fileID: 3614355787674661298}
   - component: {fileID: 5120826921880812083}
-  - component: {fileID: 1399756309}
-  - component: {fileID: 2914806273089995147}
+  - component: {fileID: 1926948542284686118}
+  - component: {fileID: 5740727740240235074}
   m_Layer: 0
   m_Name: Dog_Doberman_01
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5014,7 +5014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &1399756309
+--- !u!114 &1926948542284686118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5023,10 +5023,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5300479612842549497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f00c0956013e74090bec5fb7afc8c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2914806273089995147
+--- !u!114 &5740727740240235074
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5035,7 +5035,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5300479612842549497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba41b21852ba5f4482258e7e1cedcb5, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5300479612842550533
